@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@hello/there": "link:somewhere"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.2.156"
+  },
+  "name": "hi",
+  "version": "1.0.0",
+  "main": "index.js"
+}
