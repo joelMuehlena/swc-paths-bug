@@ -7,4 +7,4 @@
 
 The output in `swc_out_real` `swc_out_sym` is correct because swc was not invoked at the root but at the correct project root (base).
 
-The output in `swc_out` is not correct because invoked at real root. 
+The output in `swc_out` `swc_out_root_real` is not correct because invoked at real root (once with and once without symlinks).
