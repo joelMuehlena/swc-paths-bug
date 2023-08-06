@@ -1,0 +1,1 @@
+{"version":3,"sources":["tmp/execroot/test/base/src/index.ts"],"sourcesContent":["import { a } from '@test/a';\nconsole.log(\"From index\", a);\n"],"names":["console","log","a"],"mappings":";;;;mBAAkB;AAClBA,QAAQC,GAAG,CAAC,cAAcC,IAAC"}

@@ -12,9 +12,9 @@
     "loose": false,
     "externalHelpers": false,
     "keepClassNames": false,
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
-      "test/*": ["./test/*"]
+      "@test/*": ["lib/test/*"]
     }
   },
   "module": { "type": "commonjs" },
