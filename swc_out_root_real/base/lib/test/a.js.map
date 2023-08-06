@@ -1,0 +1,1 @@
+{"version":3,"sources":["base/lib/test/a.ts"],"sourcesContent":["export const a = \"a\";\nconsole.log(a);\n"],"names":["a","console","log"],"mappings":";;;;+BAAaA;;;eAAAA;;;AAAN,MAAMA,IAAI;AACjBC,QAAQC,GAAG,CAACF"}

@@ -25,6 +25,9 @@ elif [ "$type" = "real" ]; then
   $curr/swc compile src/index.ts lib/test/a.ts  --out-dir $curr/swc_out_real --config-file $curr/base/.swcrc
   
   cd $curr
+elif [ "$type" = "root-real" ]; then
+echo "Build real from 'root ($curr)'"
+  ./swc compile base/src/index.ts base/lib/test/a.ts  --out-dir swc_out_root_real --config-file base/.swcrc
 else
   echo "Build from 'root ($curr)'"
   ./swc compile tmp/execroot/test/base/src/index.ts tmp/execroot/test/base/lib/test/a.ts  --out-dir swc_out --config-file base/.swcrc
